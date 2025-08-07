@@ -12,7 +12,7 @@ jobs:
 
     services:
       todomvc:
-        image: dhruvd22/todomvc-app  
+        image: dhruvd22/todomvc-react  
         ports:
           - 3000:3000
         options: >-

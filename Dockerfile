@@ -5,5 +5,5 @@ RUN npm install
 RUN npm install webpack webpack-cli --save-dev
 RUN npm run build
 RUN npm install -g server
-EXPOSE 3005
+EXPOSE 3000
 CMD ["npx", "serve", "-s", "dist", "-l", "3000"]

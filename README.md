@@ -95,7 +95,7 @@ Run tests locally against a container on a different port:
 ```bash
 docker run -d -p 3005:3000 dhruvd22/todomvc-react
 npm ci
-CYPRESS_baseUrl=http://localhost:3005 npx cypress run
+CYPRESS_baseUrl=http://localhost:3005 npx cypress open
 ```
 
 ---

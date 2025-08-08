@@ -98,7 +98,3 @@ npm ci
 CYPRESS_baseUrl=http://localhost:3005 npx cypress open
 ```
 
----
-
-## License
-MIT
